@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coursera.adrian.maps.MapsActivity">
+
+    <TextView
+
+        android:id="@+id/tvtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+    <Button
+        android:layout_below="@id/tvtext"
+        android:text="Ir a Music Dojo"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/irMusicDojo"
+        tools:layout_editor_absoluteY="85dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="irMusicDojo"/>
+    <Button
+        android:layout_below="@id/irMusicDojo"
+        android:text="Ir a Reforma 180"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/irReforma180"
+        tools:layout_editor_absoluteY="85dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="irReforma180"/>
+    <Button
+        android:layout_below="@id/irReforma180"
+        android:text="Ir a C.C. Tlatelolco"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/irCCTlatelolco"
+        tools:layout_editor_absoluteY="85dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="irExpoTnT"/>
+    <Button
+        android:layout_below="@id/irCCTlatelolco"
+        android:text="Ir a Tenochtitlan"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/irTemploMayor"
+        tools:layout_editor_absoluteY="85dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="irTenochtitlan"/>
+
+
+
+</RelativeLayout>
